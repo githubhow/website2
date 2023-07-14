@@ -1,1 +1,84 @@
 /* styles.css */
+header h1 img {
+    height: 50px; /* Set the height of the logo */
+    margin-right: 10px; /* Add some space between the logo and the text */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+.logo {
+    position: absolute; /* Absolute positioning */
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; /* Added relative positioning */
+    padding-left: 70px; /* Added padding to accommodate the logo */
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header {
+    background-color: #283593;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    float: right; /* Float the navigation to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #1A237E; /* Darken the color on hover */
+}
+
+/* Clear floats after the header */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #283593; /* Same as header background color */
+}
+
+footer {
+    background-color: #283593; /* Same as header background color */
+    color: white; /* Same as header text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
