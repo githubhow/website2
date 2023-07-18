@@ -4,30 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>HTML/CSS Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <header>
-        <a href="index.html" class="logo"> <!-- Logo link to homepage -->
-            <img src="logo.png" alt="Logo">
-        </a>
-        <div class="container"> <!-- Added container div -->
-            <h1>My First HTML/CSS Website</h1>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
             <nav>
-                <ul>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#Reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-    <main>
-        <h1><a href="https://thefrenchtouch.us/">Order Now</a></h1>
-    </main>
-    <footer>
-        <p>Copyright &copy; 2023 My First Website</p>
-    </footer>
-</body>
+        </header>
+        <section id="hero">
+            <h1>Welcome to The Food Truck!</h1>
+            <p>American classics with a touch of french cuisine.</p>
+        </section>
+    </body>
 </html>
